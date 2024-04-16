@@ -1,0 +1,18 @@
+#Database
+
+POSTRESQL_USERNAME: user
+POSTRESQL_PASSWORD: sefyu8919
+POSTRESQL_HOST: localhost
+POSTRESQL_PORT: 5432
+POSTRESQL_DATABASE: securedocdb
+
+#Server
+CONTAINER_PORT: 8085
+ACTIVE_PROFILE: dev
+
+# Email config
+EMAIL_HOST: smtp.gmail.com
+EMAIL_PORT: 587
+EMAIL_ID: camoussfi@gmail.com
+EMAIL_PASSWORD: Sefyu@8919
+VERIFY_EMAIL_HOST: http://localhost:8085
