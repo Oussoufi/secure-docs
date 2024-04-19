@@ -8,4 +8,5 @@ public interface UserService {
 
     RoleEntity getRoleName(String name);
 
+    void verifyAccountKey(String key);
 }

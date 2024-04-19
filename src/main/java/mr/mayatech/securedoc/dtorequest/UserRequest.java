@@ -18,9 +18,9 @@ public class UserRequest {
     private String email;
     @NotEmpty(message = "Password cannot be empty or null")
     private String password;
-    @NotEmpty(message = " Bio cannot be empty or null")
+
     private String bio;
-    @NotEmpty(message = "Phone cannot be empty or null")
+
     private String phone;
 
 }

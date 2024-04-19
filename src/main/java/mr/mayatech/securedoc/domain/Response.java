@@ -16,5 +16,4 @@ public record Response(
         String message,
         String exception,
         Map<?, ?> data
-) {
-}
+) { }

@@ -12,8 +12,8 @@ public class EmailUtils {
                 getResetPasswordUrl(host, token) + "\n\n The Support Team";
     }
 
-    public static String getVerificationUrl(String host, String token) {
-        return host + "/verify/account?token=" + token;
+    public static String getVerificationUrl(String host, String key) {
+        return host + "/verify/account?key=" + key;
     }
 
     public static String getResetPasswordUrl(String host, String token) {
